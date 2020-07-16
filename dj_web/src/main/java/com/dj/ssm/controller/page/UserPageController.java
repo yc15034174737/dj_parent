@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/user/")
 public class UserPageController {
 
+    private String a;
     @Autowired
     private UserService userService;
 
