@@ -70,7 +70,7 @@ public class ProController {
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            return new ResultModel<Object>().err    or("服务器异常,请稍后重试");
+            return new ResultModel<Object>().error("服务器异常,请稍后重试");
         }
     }
 
